@@ -36,10 +36,10 @@
                 <li><a href="#">POST</a></li>
                 <li><a href="#">Groups</a></li>
                 <li><a href="#">Create Groups</a></li>
-                <li><a href="{% url 'accouts:logout' %}">Log Out</a></li>
+                <li><a href="{% url 'accounts:logout' %}">Log Out</a></li>
                 {% else %}
                 <li><a href="#">Groups</a></li>
-                <li><a href="{% url 'accounts:logout' %}">Log In</a></li>
+                <li><a href="{% url 'accounts:login' %}">Log In</a></li>
                 <li><a href="{% url 'accounts:signup' %}">Sign Up</a></li>
                 {% endif %}
 
